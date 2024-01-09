@@ -1,0 +1,92 @@
+{
+    "id": "dagao.app.sub",
+    "name": "DaGao 应用订阅",
+    "author": "@DaGao",
+    "icon": "https://avatars.githubusercontent.com/u/31092014",
+    "repo": "https://github.com/gaoyukai/reservation-maotai-script",
+    "apps": [
+        {
+            "id": "iMaoTai",
+            "name": "i茅台",
+            "author": "@DaGao",
+            "script": "",
+            "descs_html": [
+                ""
+            ],
+            "icons": [
+                "https://raw.githubusercontent.com/FoKit/Scripts/main/images/iMaoTai.png",
+                "https://raw.githubusercontent.com/FoKit/Scripts/main/images/iMaoTai.png"
+            ],
+            "keys": [
+                "MT_TOKENS",
+                "MT_PROVINCE",
+                "MT_CITY",
+                "MT_DISTRICT",
+                "MT_ITEM_BLACK",
+                "MT_VERSION",
+                "MT_USERAGENT",
+                "MT_R"
+            ],
+            "settings": [
+                {
+                    "id": "MT_TOKENS",
+                    "name": "i茅台Token",
+                    "val": "",
+                    "type": "textarea",
+                    "autoGrow": true,
+                    "rows": 1,
+                    "desc": ""
+                },
+                {
+                    "id": "MT_PROVINCE",
+                    "name": "省份",
+                    "val": "",
+                    "type": "text",
+                    "desc": "XX省 / 直辖市"
+                },
+                {
+                    "id": "MT_CITY",
+                    "name": "城市",
+                    "val": "",
+                    "type": "text",
+                    "desc": "XX市 / 直辖市"
+                },
+                {
+                    "id": "MT_DISTRICT",
+                    "name": "区域",
+                    "val": "",
+                    "type": "text",
+                    "desc": "xx区|xx区"
+                },
+                {
+                    "id": "MT_ITEM_BLACK",
+                    "name": "商品黑名单",
+                    "val": "",
+                    "type": "text",
+                    "desc": "2478|10056"
+                },
+                {
+                    "id": "MT_VERSION",
+                    "name": "APP版本号",
+                    "val": "",
+                    "type": "text",
+                    "desc": "x.x.x"
+                },
+                {
+                    "id": "MT_USERAGENT",
+                    "name": "用户标识",
+                    "val": "",
+                    "type": "text",
+                    "desc": "iOS;16.1.2;Apple;"
+                },
+                {
+                    "id": "MT_R",
+                    "name": "MT_R",
+                    "val": "",
+                    "type": "text",
+                    "desc": "clips_xxx"
+                }
+            ]
+        }
+    ]
+}
